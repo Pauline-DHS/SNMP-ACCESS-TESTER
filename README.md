@@ -20,3 +20,36 @@ Un petit script permettant de tester automatiquement l’accessibilité du servi
 
 ### 1️⃣ Préparer le fichier d’entrée
 Créer un fichier `ips.txt` au format suivant :
+
+ClientA 192.168.1.10
+ClientB 10.0.0.5
+
+### 2️⃣ Lancer le script
+```bash
+bash snmp_tester.sh ips.txt resultats.csv``` 
+
+### 1️⃣ Préparer le fichier d’entrée
+Un fichier resultats.csv contenant :
+
+Client,IP,Status
+ClientA,192.168.1.10,Ouvert
+ClientB,10.0.0.5,Fermé
+
+🧰 Prérequis
+
+Linux / macOS
+
+snmpwalk ou nmap
+
+Droits suffisants pour exécuter des tests réseau
+
+📘 Exemple d’usage
+
+Ce script a été utilisé pour vérifier les configurations d’ACL dans le cadre d’une analyse de sécurité sur une vulnérabilité 0-day affectant le protocole SNMP.
+
+🧑‍💻 Auteur
+
+Projet maintenu par [TonNom]
+📧 [ton.email@exemple.com
+]
+🗓️ Octobre 2025
