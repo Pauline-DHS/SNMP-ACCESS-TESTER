@@ -34,7 +34,7 @@ Client,IP,Status
 ClientA,192.168.1.10,Ouvert
 ClientB,10.0.0.5,Fermé
 
-🧰 Prérequis
+## 🧰 Prérequis
 
 Linux / macOS
 
@@ -42,13 +42,11 @@ snmpwalk ou nmap
 
 Droits suffisants pour exécuter des tests réseau
 
-📘 Exemple d’usage
+## 📘 Exemple d’usage
 
 Ce script a été utilisé pour vérifier les configurations d’ACL dans le cadre d’une analyse de sécurité sur une vulnérabilité 0-day affectant le protocole SNMP.
 
-🧑‍💻 Auteur
+## 🧑‍💻 Auteur
 
-Projet maintenu par [TonNom]
-📧 [ton.email@exemple.com
-]
+Projet maintenu par [Pauline DEHORS]
 🗓️ Octobre 2025
