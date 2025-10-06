@@ -26,7 +26,7 @@ ClientB 10.0.0.5
 
 ### 2️⃣ Lancer le script
 ```bash
-bash snmp_tester.sh ips.txt resultats.csv``` 
+bash snmp_tester.sh ips.txt resultats.csv
 
 ### 1️⃣ Préparer le fichier d’entrée
 Un fichier resultats.csv contenant :
